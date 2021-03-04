@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  base-react-app:
+    container_name: app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/components/app
+    ports:
+      - 3000:3000
+    working_dir: /components/app
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    stdin_open: true

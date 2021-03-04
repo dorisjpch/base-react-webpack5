@@ -1,0 +1,14 @@
+# Folders
+node_modules
+build
+coverage
+dist
+
+# Files
+*.json
+.DS_Store
+.jest-*
+*.log
+.env
+*.tgz
+TODO

@@ -1,0 +1,15 @@
+{
+  "short_name": "React",
+  "name": "React Base",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "62x62",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0066CC",
+  "background_color": "#0066CC"
+}
